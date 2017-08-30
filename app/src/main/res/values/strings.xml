@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Java Developers</string>
+    <string name="profile_name">Profile</string>
+    <string name="action_settings">Settings</string>
+
+    <!--Empty View-->
+    <!-- Title text for the empty view, which describes the empty dog house image [CHAR LIMIT=50] -->
+    <string name="empty_view_title">It\'s a bit lonely here...</string>
+    <string name="internet">No Internet Access</string>
+    <string name="heading">Developers in Lagos</string>
+
+    <!-- Subtitle text for the empty view that prompts the user to add a pet [CHAR LIMIT=50] -->
+    <string name="empty_view_subtitle">Turn ON your data connection and view the awesome profile of developers in Lagos</string>
+</resources>

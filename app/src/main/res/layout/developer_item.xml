@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Layout for a single list item -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              xmlns:fresco="http://schemas.android.com/apk/res-auto"
+              android:gravity="center_vertical"
+              android:orientation="horizontal"
+              android:minHeight="?android:attr/listPreferredItemHeight"
+    >
+
+    <!--de.hdodenhof.circleimageviewCircleImageView-->
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/developers_image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        fresco:placeholderImage="@drawable/marshmallow"
+        fresco:roundBottomLeft="true"
+        fresco:roundBottomRight="true"
+        fresco:roundWithOverlayColor="@color/white"
+        fresco:roundedCornerRadius="10dp"
+        fresco:roundingBorderColor="@color/pix_bg"
+        fresco:roundingBorderWidth="1dp"
+        />
+
+
+    <TextView
+        android:id="@+id/developers_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="serif"
+        android:paddingLeft="16dp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="McOwen"
+        tools:text="McOwen" />
+
+</LinearLayout>
